@@ -1,0 +1,7 @@
+{
+  "name": "photoAppIDB",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
