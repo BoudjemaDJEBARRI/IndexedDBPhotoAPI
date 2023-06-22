@@ -21,6 +21,6 @@ export class HomePage {
     });
     this.imageSource = image.webPath;
 
-    this.photoService.savePhoto(image);
+    // this.photoService.savePhoto(image);
   }
 }
