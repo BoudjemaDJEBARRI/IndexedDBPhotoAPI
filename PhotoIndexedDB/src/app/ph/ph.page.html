@@ -1,13 +1,14 @@
-
 <ion-header>
   <ion-toolbar>
-    <ion-title>Take Photo & Store Data</ion-title>
+    <ion-title>
+      Prendre Photo
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-fab vertical="bottom" horizontal="center" slot="fixed">
-    <img [src]="imageSource" *ngIf="imageSource" style="width: 400px;">
+    <img src="{{imageSource}}"> 
     <ion-fab-button (click)="takePhoto()">
       <ion-icon name="camera"></ion-icon>
     </ion-fab-button>

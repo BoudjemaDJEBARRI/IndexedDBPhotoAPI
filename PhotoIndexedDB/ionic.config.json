@@ -1,0 +1,7 @@
+{
+  "name": "PhotoIndexedDB",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
