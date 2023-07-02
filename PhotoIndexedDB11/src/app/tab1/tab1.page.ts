@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { Camera, CameraResultType, CameraSource } from '@capacitor/camera';
 
 @Component({
-  selector: 'app-ph',
-  templateUrl: 'ph.page.html',
-  styleUrls: ['ph.page.scss'],
+  selector: 'app-tab1',
+  templateUrl: 'tab1.page.html',
+  styleUrls: ['tab1.page.scss']
 })
-export class PhPage {
+export class Tab1Page {
 
   imageSources: string[] = []; // Liste pour stocker les URL des images
 
